@@ -2,7 +2,7 @@
 
 ## **Pre requisitos**
 
- - HttpClient 4.5.8
+ - HttpClient 4.5.8   
  - Spring Boot 2.1.6
 ## Crear keystore y trustore
 
@@ -94,16 +94,19 @@ Modificacion  del properties
 	# Mutual TLS/SSL
 	server.ssl.client-auth=need
 	server.port=8222
+	
+	# Mutual TLS/SSL
+	server.ssl.client-auth=need
+	server.port=8222
 
 Ejecutar el test ubicado en `src/test/java/com/cdc/pdmx/ApplicationTests.java`
 
 
 
-# Mutual TLS/SSL
-server.ssl.client-auth=need
-server.port=8222
 
-## **Fuentes**
 
-https://codenotfound.com/spring-ws-mutual-authentication-example.html
-https://github.com/joutwate/mtls-springboot
+
+### **Fuentes**
+
+ - https://codenotfound.com/spring-ws-mutual-authentication-example.html
+ - https://github.com/joutwate/mtls-springboot
